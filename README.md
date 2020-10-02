@@ -19,4 +19,4 @@ in COVID19 case count.
 COVID19 cases by counties, as per (NYTimes 2020)
 
 ## Methodology
-The user inputs the state and the target county along with the time period in question. In preprocessing, neighboring counties with similar treand in Covid cases are considered for the donor pool. The final donor pool will be the target value + counties that did not enact mask mandates. After which RSC is performed to give a counterfactual scenario and estimate the percentage difference in the number of Covid cases.
+The user inputs the state and the target county, along with the time period in question. In preprocessing, counties of the same state with similar trend in Covid cases are considered for the donor pool. The final donor pool will be the target value + counties that did not enact mask mandates. After which RSC is performed to give a counterfactual scenario, where masks were not made mandatory and estimate the percentage difference in the number of Covid cases.
